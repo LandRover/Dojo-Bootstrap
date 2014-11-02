@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/LandRover/Dojo-Bootstrap.git"
+    "url": "git://github.com/LandRover/Dojo-Bootstrap.git"
   },
   "author": "Oleg Glozman",
   "license": "MIT",
