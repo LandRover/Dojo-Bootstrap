@@ -35,7 +35,7 @@
     "time-grunt": "^1.0.0"
   },
   "volo": {
-    "baseUrl": "deps",
+    "baseUrl": "vendors",
     "dependencies": {
       "Box2d.min": "https://box2dweb.googlecode.com/svn/trunk/Box2d.min.js",
       "dcl": "github:uhop/dcl/1.1.1",
