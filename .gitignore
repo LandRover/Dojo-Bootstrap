@@ -7,3 +7,4 @@ css
 _SpecRunner.html
 .grunt
 node_modules
+vendors
