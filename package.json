@@ -1,0 +1,56 @@
+{
+  "name": "dojo_bootstrap",
+  "description": "Dojo bootstrap starter",
+  "main": "Gruntfile.js",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LandRover/Dojo-Bootstrap.git"
+  },
+  "author": "Oleg Glozman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LandRover/Dojo-Bootstrap/issues"
+  },
+  "homepage": "https://github.com/LandRover/Dojo-Bootstrap",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-clean": "^0.6.0",
+    "grunt-contrib-compass": "^1.0.1",
+    "grunt-contrib-connect": "^0.8.0",
+    "grunt-contrib-copy": "^0.7.0",
+    "grunt-contrib-imagemin": "^0.9.1",
+    "grunt-contrib-jasmine": "^0.8.1",
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-contrib-uglify": "^0.6.0",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-dojo": "^0.3.0",
+    "grunt-open": "^0.2.3",
+    "grunt-text-replace": "^0.3.12",
+    "load-grunt-config": "^0.16.0",
+    "load-grunt-tasks": "^1.0.0",
+    "time-grunt": "^1.0.0"
+  },
+  "volo": {
+    "baseUrl": "deps",
+    "dependencies": {
+      "Box2d.min": "https://box2dweb.googlecode.com/svn/trunk/Box2d.min.js",
+      "dcl": "github:uhop/dcl/1.1.1",
+      "dojo": "github:dojo/dojo/1.10.2",
+      "lodash": "github:lodash/lodash/2.4.1",
+      "util": "github:dojo/util/1.10.2"
+    }
+  },
+  "jam": {
+    "dependencies": {
+      "box2dweb": "2.1.3",
+      "dcl": "1.1.1",
+      "dojo": "1.10.2",
+      "lodash": "2.4.1"
+    }
+  },
+  "dojoBuild": "dojo_bootstrap.profile.js"
+}
