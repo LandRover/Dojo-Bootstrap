@@ -8,6 +8,8 @@ module.exports = function (grunt) {
     Install Grunt Prerequisites:
     ---------------------
         npm install
+        volo install
+        jam install
     
     Gem Prerequisites:
     -----------------
@@ -59,7 +61,6 @@ module.exports = function (grunt) {
         'requirejs',
         'compass:dev',
         'imagemin',
-        'htmlmin',
         'replace:release',
         'clean:after_build'
     ]);
@@ -71,7 +72,6 @@ module.exports = function (grunt) {
         'requirejs',
         'compass:release',
         'imagemin',
-        'htmlmin',
         'uglify',
         'replace:release',
         'clean:after_build'
