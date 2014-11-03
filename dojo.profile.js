@@ -44,6 +44,11 @@ var profile = (function() {
             "dojo/dojo": {
                 include: [],
                 customBase: 1
+            },
+            "dist/bootstrap": {
+                include: [
+                    'bootstrap'
+                ]
             }
         },
         
