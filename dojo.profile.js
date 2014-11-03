@@ -7,7 +7,7 @@ var profile = (function() {
     
     return {
         basePath: "./",
-        releaseDir: ".release",
+        releaseDir: ".build",
         action: "release",
         layerOptimization: "closure",
         mini: true,
