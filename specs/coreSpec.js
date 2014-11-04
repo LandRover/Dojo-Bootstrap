@@ -10,8 +10,8 @@ define([
     });
     
     
-    describe('Artist Init', function() {
-        it('it can create an Artist', function() {
+    describe('Core Init', function() {
+        it('it can create a Core', function() {
             core.isRunning = true;
             expect(core.isRunning).toBe(true);
         });
