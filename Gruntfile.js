@@ -43,7 +43,7 @@ module.exports = function (grunt) {
     // Unit testing task
     grunt.registerTask('test', [
         'connect',
-        'jasmine:run'
+        'jasmine'
     ]);
     
     // Default task
@@ -58,10 +58,9 @@ module.exports = function (grunt) {
     grunt.registerTask('debug', [
         'jshint:src',
         'test',
-        'requirejs',
         'compass:dev',
         'imagemin',
-        'replace:release',
+        'dojo',
         'clean:after_build'
     ]);
     
@@ -69,11 +68,9 @@ module.exports = function (grunt) {
     grunt.registerTask('release', [
         'jshint:src',
         'test',
-        'requirejs',
         'compass:release',
         'imagemin',
-        'uglify',
-        'replace:release',
+        'dojo',
         'clean:after_build'
     ]);
 };
