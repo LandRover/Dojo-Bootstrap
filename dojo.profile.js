@@ -13,7 +13,7 @@ var profile = (function() {
         mini: true,
         selectorEngine: "acme",
         
-        doboBootText: "require.boot && require.apply(null, require.boot)",
+        dojoBootText: "(function(){ require({cache:{}}); require.boot && require.apply(null, require.boot); })();",
         
         defaultConfig: {
             async: 1,
