@@ -2,7 +2,8 @@ module.exports = {
     // clean after build
     after_build: {
         src: [
-            '.sass-cache'
+            '.sass-cache',
+            '.grunt'
         ]
     },
     
@@ -10,7 +11,8 @@ module.exports = {
     release: {
         src: [
             '.sass-cache',
-            '.release'
+            '.grunt',
+            '.build'
         ]
     },
     
@@ -18,8 +20,10 @@ module.exports = {
     all: {
         src: [
             '.sass-cache', // clean up sass cache
-            '.release', // clean build
-            'css' // clean generated css
+            '.grunt', // grunt tmp
+            '.build', // build tmp
+            'css', // clean generated css
+            'dist' // build dist
         ]
     }
 };
