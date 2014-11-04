@@ -3,21 +3,22 @@ module.exports = {
     after_build: {
         src: [
             '.sass-cache',
-            '.grunt'
-        ]
-    },
-    
-    // delete only
-    release: {
-        src: [
-            '.sass-cache',
             '.grunt',
             '.build'
         ]
     },
     
+    release: {
+        src: [
+            '.sass-cache',
+            '.grunt',
+            '.build',
+            'dist'
+        ]
+    },
+    
     // deletes everything generated
-    all: {
+    all_generated: {
         src: [
             '.sass-cache', // clean up sass cache
             '.grunt', // grunt tmp
