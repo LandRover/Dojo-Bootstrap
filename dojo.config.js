@@ -1,6 +1,6 @@
 var dojoConfig = {
-  baseUrl: './',
   async: true,
+  baseUrl: './',
   packages: [
     {name: 'dcl', location: 'vendors/dcl', main: 'dcl'},
     {name: 'dojo', location: 'vendors/dojo'},
