@@ -5,7 +5,7 @@ module.exports = {
             '<%= jshint.files %>',
             '<%= jasmine.run.options.specs %>'
         ],
-        tasks: ['jshint'],
+        tasks: ['jshint:src'],
         options: {
             spawn: false
         }
