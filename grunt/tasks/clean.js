@@ -13,7 +13,7 @@ module.exports = {
             '.sass-cache',
             '.grunt',
             '.build',
-            'dist'
+            'release'
         ]
     },
     
@@ -24,7 +24,7 @@ module.exports = {
             '.grunt', // grunt tmp
             '.build', // build tmp
             'css', // clean generated css
-            'dist' // build dist
+            'release' // build release dist
         ]
     }
 };
