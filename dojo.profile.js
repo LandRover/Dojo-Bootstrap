@@ -7,7 +7,7 @@ var profile = (function() {
     
     return {
         basePath: "./",
-        releaseDir: ".build",
+        releaseDir: ".build", // build tmp dir
         action: "release",
         layerOptimization: "closure",
         mini: true,
@@ -43,12 +43,14 @@ var profile = (function() {
         layers: {
             "dojo/dojo": {
                 include: [],
-                customBase: 1
+                customBase: true
             },
             "dist/bootstrap": {
                 include: [
                     'bootstrap'
-                ]
+                ],
+                customBase: true,
+                boot: true
             }
         },
         
