@@ -14,9 +14,8 @@ module.exports = {
         helpers: [
             'dojo.config.js',
             'vendors/dojo/dojo.js',
-            'jam/sinon/sinon.js'
-            //'specs/helpers/*Helper.js',
+            'specs/helpers/*Helper.js'
         ],
-        template: 'specs/helpers/_SpecRunner.tmpl'
+        template: 'specs/fixtures/_SpecRunner.tmpl'
     }
 };
