@@ -42,7 +42,6 @@
       "dojo": "github:dojo/dojo/1.10.2",
       "lodash": "github:lodash/lodash/2.4.1",
       "util": "github:dojo/util/1.10.2",
-      "hammer/hammer": "github:phated/hammer.js/frozen",
       "sinon/sinon": "github:cjohansen/Sinon.JS/v1.11.1"
     }
   },
