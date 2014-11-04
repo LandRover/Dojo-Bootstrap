@@ -1,19 +1,22 @@
 module.exports = {
     // run tests
-    run: {
-        src: [
-            '<%= build.src %>/**/*.js'
-        ],
+    test: {
         options: {
-            host: 'http://127.0.0.1:1337/',
             specs: [
-                'specs/**/*.js'
-            ],
-            helpers: [
-                'specs/helpers/*Helper.js',
-                'vendors/sinon/sinon.js'
-            ],
-            template: 'specs/helpers/_SpecRunner.tmpl'
+                'specs/**/*Spec.js'
+            ]
         }
+    },
+    
+    options: {
+        src: 'src/**/*.js',
+        host: 'http://127.0.0.1:1337/',
+        helpers: [
+            'dojo.config.js',
+            'vendors/dojo/dojo.js',
+            'jam/sinon/sinon.js'
+            //'specs/helpers/*Helper.js',
+        ],
+        template: 'specs/helpers/_SpecRunner.tmpl'
     }
 };
