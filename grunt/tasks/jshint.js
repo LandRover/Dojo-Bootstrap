@@ -2,6 +2,8 @@ module.exports = {
     src: {
         src: [
             '<%= build.src %>/**/*.js',
+            'dojo.config.js',
+            'dojo.profile.js',
             'specs/**/*Spec.js'
         ],
         
