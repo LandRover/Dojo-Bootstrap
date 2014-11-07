@@ -27,4 +27,3 @@ This is a quick bootstrap project with Dojo toolkit
 ## @todo
   - build simple app based on DCL
   - check why optimization takes ~60 seconds
-  - remove jam
