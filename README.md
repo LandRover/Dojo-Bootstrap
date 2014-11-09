@@ -25,5 +25,4 @@ This is a quick bootstrap project with Dojo toolkit
     - grunt release
 
 ## @todo
-  - build simple app based on DCL
   - consider switching DCL as it was not updated for a while. verify project is active.
